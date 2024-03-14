@@ -1,7 +1,15 @@
-# Welcome to streamlit
+# Stock market prediction
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+## Install
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+```bash
+pip install poetry
+poetry install
+```	
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+## Usage
+
+```bash
+poetry shell
+python -m stock_market_prediction
+```

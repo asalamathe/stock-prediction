@@ -2,7 +2,7 @@ import streamlit as st  # Import Streamlit for web app development
 import pandas as pd  # Import pandas for data manipulation
 import plotly.express as px  # Import Plotly Express for easy plotting (unused in this script)
 import plotly.graph_objects as go  # Import Plotly Graph Objects for customized plotting
-from stock_market_prediction.models import calc_smoothed_average, fit_arima_model  # Import custom functions for stock market prediction
+from .models import calc_smoothed_average, fit_arima_model  # Import custom functions for stock market prediction
 import warnings  # Import warnings to control warning messages
 from sklearn.metrics import r2_score, mean_absolute_error  # Import metrics for model evaluation
 
